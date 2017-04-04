@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sorting</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../Design/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../../Design/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="../../Design/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../../Design/css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body class="container">
+        <div class="row">
+            <div class="container-fluid">
+                <div class="jumbotron" style="height: 200px;">
+                    <div class="col-lg-offset-2">
+                        <h1>Welcome To Data Structures</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <h1><a href="#">Sorting</a></h1>
+                <div class="col-lg-11 col-lg-offset-1">
+                    <table >
+                        <tr><h3>Insertion Sort</h3></tr>
+                    <script>
+                            function insertion() {
+                                alert(hello);
+                                var ar = ['5', '11', '8', '-5', '1', '-1'];
+                                for (i = 0; i < ar.length; i++) {
+                                    var temp = ar[i];
+                                    for (j = 1; j > 0 && temp < ar[j]; j--) {
+                                        a[j] = ar[j - 1];
+                                        document.getElementById("demo").innerHTML = 5;
+                                    }
+                                    ar[j] = temp;
+
+                                }
+
+                            }
+
+                        </script>
+                        <tr> <button onclick="insertion()">Simulation</button>
+                        
+                        <p id="demo"></p>
+                        </tr>
+
+                        <tr><h3>Selection Sort</h3></tr>
+                        <tr><h3>Bubble Sort</h3></tr>
+                        <tr><h3>Quick Sort</h3></tr>
+                        <tr><h3>Merge Sort</h3></tr>
+                        <tr><h3>Heap Sort</h3></tr>
+                        <tr><h3>Shell Sort</h3></tr>
+                        <tr><h3>Bucket Sort</h3></tr>
+                        <tr><h3>Radix Sort</h3></tr>
+
+                        <tr><a class="btn btn-success"  href="../index.html">Back</a></tr>
+                    </table>
+                </div>
+                <table class="table-hover">
+                    <tr>
+
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <footer class="col-lg-4 col-lg-offset-4">
+            Copyright @2017
+        </footer>
+    </body>
+</html>

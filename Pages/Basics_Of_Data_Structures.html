@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Basics of Data Structures</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../Design/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../../Design/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="../../Design/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../../Design/css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body class="container">
+        <div class="row">
+            <div class="container-fluid">
+                <div class="jumbotron" style="height: 200px;">
+                    <div class="col-lg-offset-2">
+                        <h1>Welcome To Data Structures</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <h1><a href="#">Basics of Data Structures</a></h1>
+                <div class="col-lg-11 col-lg-offset-1">
+                    <table >
+                        <tr><h3>What is Data ?</h3></tr>
+                        <tr><p>In Simple word we can say that data means combinations of 0 and 1.On the other hand we can say 
+                            that data is a collection of byte.
+                        </p>
+                        </tr>
+                        <tr><h3>What is Structure ?</h3></tr>
+                        <tr>
+                        <p>
+                            Structure Means Orgnaization of data.How the data's are organized in a system.How they 
+                            linked with each other.
+                        </p>
+                        </tr>
+                        <tr><h3>So what would be Data Structure ?</h3></tr>
+                        <tr><p>In my word Data Structure means how the combinations of 0 and 1 is organized.  </p></tr>
+                        <tr><h3>Types Of Data</h3></tr>
+                        <tr>Simply we can say that in C programming there are sevaral types of data types </tr>
+                        <tr><h3>Bits Bytes and convartion</h3></tr>
+                        <tr><p>Most of us getting confused that is bit bigger than byte ? or Byte is bigger than  bit ?
+                            or I am thinking wrong. Look and try to count that bit is a word with 3 character and byte is
+                            with 4 . So remember that which word contains more character is Bigger.Simple isn't it.
+                            Today I am saying that earth is square.Do you belive ? Never you will belive.This is the way I am
+                            saying that you will only remember.<br>
+                            So lets see how the bits and bytes are staying together.
+                            <img src="img/bitbyte.jpg">
+                        </p></tr>
+                        <tr>
+                        <h3>Bits and Bytes Calculator</h3>
+                        </tr>
+                        <tr>
+                            <label>Enter Number of bits and press Enter : </label>
+                        </tr>
+                        <tr>
+                            <input type= text id="namehere" > <br>
+                        </tr>
+                        <tr>
+                            <button onclick="displayname()">submit</button>
+                        </tr>
+
+                        <tr>
+                        <script>
+                            function displayname() {
+                                var v=document.getElementById("namehere").value;
+                                //v=(int)*v;
+                                v=v/8;
+                                
+                                document.getElementById("demo").innerHTML=parseInt(v);
+                            }
+
+                        </script>
+                        
+                        </tr>
+                        <tr>
+                            <p id="demo"></p> Bytes
+                        </tr>
+                        <br>
+                        <tr>
+                            <label>Enter Number of Bytes  : </label>
+                        </tr>
+                        <tr>
+                            <input type= text id="bytes" > <br>
+                        </tr>
+                        <tr>
+                            <button onclick="display()">submit</button>
+                        </tr>
+
+                        <tr>
+                        <script>
+                            function display() {
+                                var v=document.getElementById("bytes").value;
+                                //v=(int)*v;
+                                v=v*8;
+                                
+                                document.getElementById("bytesdemo").innerHTML=parseInt(v);
+                            }
+
+                        </script>
+                        
+                        </tr>
+                        <tr>
+                            <p id="bytesdemo"></p> Bytes
+                        </tr>
+                        <br>
+                        <tr>
+                        <p>
+                            So we can see that bits are small.Once converted into bits to bytes then we can not get the previous data
+                            
+                        </p>
+                        </tr>
+                        <tr>
+                            <h3>Number System</h3>
+                        </tr>
+                        <tr>
+                            <p><a href="#">Binary To Decimal</a></p>
+                        </tr>
+                        <tr>
+                        <p><a href="#">Decimal To Binary</a></p>
+                        </tr>
+                        <tr>
+                            <h3>1's Compliments</h3>
+                        </tr>
+                        <tr>
+                            1's compliment is so easy anyone can do it easily by inverting the what you got.Lets See an image
+                        
+                        </tr>
+                        <br>
+                        
+                        <tr>
+                            <img src="img/1s_complement.jpg">
+                        </tr>
+                        <br>
+                        <tr class="">
+                            <h3>2's Compliments</h3>
+                        </tr>
+                        <br>
+                        <tr>
+                            2's compliment is so easy anyone can do it easily by inverting the what you got & then add 1 with it.Thats it.Lets See an image
+                        
+                        </tr>
+                        <br>
+                        <tr><img src="img/2s_complement.jpg"></tr>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <br>
+                        
+                        <tr><a class="btn btn-success"  href="../index.html">Back</a></tr>
+                    </table>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <table class="table-hover">
+                    <tr>
+
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <footer class="col-lg-4 col-lg-offset-4">
+            Copyright @2017
+        </footer>
+    </body>
+</html>
